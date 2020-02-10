@@ -1,6 +1,5 @@
-| Syntax      | Description |
+| Term      | Definition |
 | ----------- | ----------- |
-| Term      | Definition       |
 | Report Period    | Timeframe for which data is collected  |
 | Group Name    |   Definition  |
 | Agent Name    |   Definition  |
@@ -13,9 +12,9 @@
 | Total Vs Total - eTRACS    |   Definition  |
 | Immediate Vs Total - eTRACS    |   Definition  |
 | Transfers    |   Definition  |
-| Inbound AHT - ENG    |   Definition  |
-| Calls Answered - ENG    |   Definition  |
-| Calls Answered - SPA    |   Definition  |
+| Inbound AHT - ENG    |   The average handle time for inbound calls in English  |
+| Calls Answered - ENG    |   Number of calls answered in English  |
+| Calls Answered - SPA    |   Number of calls answered in Spanish  |
 | Inbound AHT - SPA    |   Definition  |
 | Inbound AHT    |   Definition  |
 | Call Tracker Compliance    |   Definition  |
