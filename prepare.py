@@ -38,11 +38,12 @@ def rename_columns(df):
 
     return df
 
-reps.head()
-
-rename_columns(reps)
-
 
 def remove_columns(df):
     df = df.drop(columns={'reporting_period', 'group_name','agent_name'})
+    return df
+
+def open_hours(df):
+    # remove minutes and seconds from open hours column and convert to 
+    df['scheduled_open_hours'] = [re.sub(r':.+','', str(i)) for i in df['scheduled_open_hours']]
     return df
